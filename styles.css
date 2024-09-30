@@ -72,6 +72,15 @@ li {
 .button1 {
     margin-top: 10px;
 }
+.info {
+    background-color: #F9FAF8;
+    padding: 70px;
+}
+.card {
+    max-width: 200px;
+}
+
+
 
 /**FLEX**/
 
@@ -107,4 +116,34 @@ li {
     max-width: 400px;
     margin-top: 0;
 }
-
+.infoheader {
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+  }
+  .textunder {
+        max-width: 150px;
+        display: flex;
+        text-align: center;
+  }
+  .quote {
+    display: flex;
+    padding: 120px;
+  }
+  .pquote {
+    display:flex;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
+  }
+  .source {
+    display: flex;
+        display:flex;
+        justify-content: flex-end;
+        align-items: end;
+        flex-wrap: wrap;
+  }
